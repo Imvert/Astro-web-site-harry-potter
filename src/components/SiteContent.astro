@@ -1,0 +1,72 @@
+---
+import type { CardItem } from "../types/types";
+import CardsView from "./CardsView";
+
+const cards: CardItem[] = [
+  {
+    title: "Explore an Open World",
+    image: "/assets/game-info-panel-01.jpg",
+    description:
+      "The wizarding world awaits you. Freely roam Hogwarts, Hogsmeade, the Forbidden Forest, and the surrounding Overland area.",
+  },
+  {
+    title: "Be the Witch or Wizard You Want to be",
+    image: "/assets/game-info-panel-02.jpg",
+    description:
+      "Learn spells, brew potions, grow plants, and tend to magical beasts along your journey. Get sorted into your house, forge relationships, and master skills to become the witch or wizard you want to be.",
+  },
+  {
+    title: "Experience a New Wizarding World Adventure",
+    image: "/assets/game-info-panel-03.jpg",
+    description:
+      "Experience the wizarding world in an unexplored era to uncover a hidden truth from its past. Battle against trolls, Dark Wizards, goblins, and more as you face a dangerous villain threatening the fate of the wizarding world.",
+  },
+  {
+    title: "TITLE 4",
+    image: "/assets/game-info-panel-01.jpg",
+    description: "descripcion 4",
+  },
+  {
+    title: "TITLE 5",
+    image: "/assets/game-info-panel-01.jpg",
+    description: "descripcion 5",
+  },
+];
+---
+
+<section>
+  <div class="trailer">
+    <img src="/assets/launch-trailer.jpg" alt="" />
+  </div>
+
+  <div class="description">
+    Marcos ipsum, dolor sit amet consectetur adipisicing elit. Velit mollitia
+    labore dignissimos molestiae quos rem inventore alias, sed accusamus!
+    Accusantium nemo molestiae non ut quae porro beatae quo labore minima! Lorem
+    ipsum, dolor sit amet consectetur adipisicing elit. Velit mollitia labore
+    dignissimos molestiae quos rem inventore alias, sed accusamus! Accusantium
+    nemo molestiae non ut quae porro beatae quo labore minima!
+  </div>
+
+  <div class="cards-container">
+    <CardsView cards={cards} client:load />
+  </div>
+</section>
+
+<style>
+  section {
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+  }
+
+  .description {
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+    margin-top: 40px;
+  }
+</style>
