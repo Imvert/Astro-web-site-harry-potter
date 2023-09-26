@@ -3,17 +3,17 @@ import type { MenuItem } from "../types/types";
 const menuItems: MenuItem[] = [
   {
     title: "Home",
-    url: "/",
+    url: "./",
     icon: "",
   },
   {
     title: "FAQ",
-    url: "/faq",
+    url: "./faq",
     icon: "",
   },
   {
     title: "Blog",
-    url: "/blog",
+    url: "./blog",
     icon: "",
   },
 ];
