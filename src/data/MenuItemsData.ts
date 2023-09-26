@@ -3,7 +3,7 @@ import type { MenuItem } from "../types/types";
 const menuItems: MenuItem[] = [
   {
     title: "Home",
-    url: "./",
+    url: "home",
     icon: "",
   },
   {
@@ -13,7 +13,7 @@ const menuItems: MenuItem[] = [
   },
   {
     title: "Blog",
-    url: "./blog",
+    url: "blog",
     icon: "",
   },
 ];
