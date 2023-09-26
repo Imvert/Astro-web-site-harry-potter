@@ -8,7 +8,7 @@ const menuItems: MenuItem[] = [
   },
   {
     title: "FAQ",
-    url: "./faq",
+    url: "faq",
     icon: "",
   },
   {
