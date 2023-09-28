@@ -5,7 +5,7 @@ import Title from "../components/Title.astro";
 import faqs from "../data/faqData";
 ---
 
-<LayoutPost title="FAQ">
+<LayoutPost title="FAQ" favicon="./assets/logo-hp.png">
   <section>
     <Title title="Preguntas Frecuentes" />
     {faqs.map((faq) => <FaqItem item={faq} />)}

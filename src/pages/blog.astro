@@ -6,7 +6,7 @@ import LayoutPost from "../layouts/LayoutPost.astro";
 const posts = await Astro.glob("./posts/*.md");
 ---
 
-<LayoutPost title="Blog">
+<LayoutPost title="Blog" favicon="./assets/logo-hp.png">
   <section>
     <Title title="Ultimas noticas" />
     {posts.map((post) => <PostPreview post={post} />)}

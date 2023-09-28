@@ -6,5 +6,5 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [react()],
   site: "https://Imvert.github.io",
-  base: "/site-hp",
+  base: "/Astro-web-site-harry-potter",
 });
