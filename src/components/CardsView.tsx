@@ -21,7 +21,7 @@ function CardView({ title, description, image }: CardItem) {
   return (
     <div className="card">
       <div className="image" style={{ backgroundImage: `url(${image})` }}>
-        <img src="/assets/game-info-frame-a.webp" alt="" />
+        <img src="./assets/game-info-frame-a.webp" alt="" />
       </div>
       <div className="title">{title}</div>
       <div className="description">{description}</div>
