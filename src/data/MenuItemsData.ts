@@ -1,19 +1,22 @@
 import type { MenuItem } from "../types/types";
 
+const dev = "/site-hp";
+const prod = "/Astro-web-site-harry-potter";
+
 const menuItems: MenuItem[] = [
   {
     title: "Home",
-    url: "/Astro-web-site-harry-potter/",
+    url: `${prod}/`,
     icon: "",
   },
   {
     title: "FAQ",
-    url: "/Astro-web-site-harry-potter/faq",
+    url: `${prod}/faq`,
     icon: "",
   },
   {
     title: "Blog",
-    url: "/Astro-web-site-harry-potter/blog",
+    url: `${prod}/blog`,
     icon: "",
   },
 ];
